@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3019ACF11938357200419DDF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3019ACF01938357200419DDF /* Security.framework */; };
+		3019ACF31938357C00419DDF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3019ACF21938357C00419DDF /* CFNetwork.framework */; };
+		3019ACF51938359100419DDF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3019ACF41938359100419DDF /* SystemConfiguration.framework */; };
+		30DF5C061935DFC600F196A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30DF5C051935DFC600F196A3 /* Foundation.framework */; };
+		30DF5C081935DFC600F196A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30DF5C071935DFC600F196A3 /* CoreGraphics.framework */; };
+		30DF5C0A1935DFC600F196A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30DF5C091935DFC600F196A3 /* UIKit.framework */; };
+		30DF5C101935DFC700F196A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30DF5C0E1935DFC700F196A3 /* InfoPlist.strings */; };
+		30DF5C121935DFC700F196A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DF5C111935DFC700F196A3 /* main.m */; };
+		30DF5C161935DFC700F196A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DF5C151935DFC700F196A3 /* AppDelegate.m */; };
+		30DF5C181935DFC700F196A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30DF5C171935DFC700F196A3 /* Images.xcassets */; };
+		30DF5C1F1935DFC800F196A3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30DF5C1E1935DFC800F196A3 /* XCTest.framework */; };
+		30DF5C201935DFC800F196A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30DF5C051935DFC600F196A3 /* Foundation.framework */; };
+		30DF5C211935DFC800F196A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30DF5C091935DFC600F196A3 /* UIKit.framework */; };
+		30DF5C291935DFC800F196A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30DF5C271935DFC800F196A3 /* InfoPlist.strings */; };
+		30DF5C2B1935DFC800F196A3 /* dataSend_serverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DF5C2A1935DFC800F196A3 /* dataSend_serverTests.m */; };
+		30DF5C361935E38900F196A3 /* dataSendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DF5C351935E38900F196A3 /* dataSendViewController.m */; };
+		30DF5C391935E39B00F196A3 /* checkDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DF5C381935E39B00F196A3 /* checkDataViewController.m */; };
+		30DF5C3C1935E4D800F196A3 /* 18.png in Resources */ = {isa = PBXBuildFile; fileRef = 30DF5C3B1935E4D800F196A3 /* 18.png */; };
+		30DF5C3E1935E4DF00F196A3 /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = 30DF5C3D1935E4DF00F196A3 /* 11.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30DF5C221935DFC800F196A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30DF5BFA1935DFC600F196A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30DF5C011935DFC600F196A3;
+			remoteInfo = dataSend_server;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3019ACF01938357200419DDF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3019ACF21938357C00419DDF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		3019ACF41938359100419DDF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		30DF5C021935DFC600F196A3 /* dataSend_server.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dataSend_server.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30DF5C051935DFC600F196A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		30DF5C071935DFC600F196A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		30DF5C091935DFC600F196A3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		30DF5C0D1935DFC700F196A3 /* dataSend_server-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "dataSend_server-Info.plist"; sourceTree = "<group>"; };
+		30DF5C0F1935DFC700F196A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		30DF5C111935DFC700F196A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30DF5C131935DFC700F196A3 /* dataSend_server-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dataSend_server-Prefix.pch"; sourceTree = "<group>"; };
+		30DF5C141935DFC700F196A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		30DF5C151935DFC700F196A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		30DF5C171935DFC700F196A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		30DF5C1D1935DFC800F196A3 /* dataSend_serverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dataSend_serverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30DF5C1E1935DFC800F196A3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		30DF5C261935DFC800F196A3 /* dataSend_serverTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "dataSend_serverTests-Info.plist"; sourceTree = "<group>"; };
+		30DF5C281935DFC800F196A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		30DF5C2A1935DFC800F196A3 /* dataSend_serverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dataSend_serverTests.m; sourceTree = "<group>"; };
+		30DF5C341935E38900F196A3 /* dataSendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dataSendViewController.h; sourceTree = "<group>"; };
+		30DF5C351935E38900F196A3 /* dataSendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dataSendViewController.m; sourceTree = "<group>"; };
+		30DF5C371935E39B00F196A3 /* checkDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = checkDataViewController.h; sourceTree = "<group>"; };
+		30DF5C381935E39B00F196A3 /* checkDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = checkDataViewController.m; sourceTree = "<group>"; };
+		30DF5C3B1935E4D800F196A3 /* 18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 18.png; path = Images.xcassets/18.png; sourceTree = "<group>"; };
+		30DF5C3D1935E4DF00F196A3 /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 11.png; path = Images.xcassets/11.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30DF5BFF1935DFC600F196A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3019ACF51938359100419DDF /* SystemConfiguration.framework in Frameworks */,
+				3019ACF31938357C00419DDF /* CFNetwork.framework in Frameworks */,
+				3019ACF11938357200419DDF /* Security.framework in Frameworks */,
+				30DF5C081935DFC600F196A3 /* CoreGraphics.framework in Frameworks */,
+				30DF5C0A1935DFC600F196A3 /* UIKit.framework in Frameworks */,
+				30DF5C061935DFC600F196A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30DF5C1A1935DFC800F196A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30DF5C1F1935DFC800F196A3 /* XCTest.framework in Frameworks */,
+				30DF5C211935DFC800F196A3 /* UIKit.framework in Frameworks */,
+				30DF5C201935DFC800F196A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30DF5BF91935DFC600F196A3 = {
+			isa = PBXGroup;
+			children = (
+				30DF5C0B1935DFC600F196A3 /* dataSend_server */,
+				30DF5C241935DFC800F196A3 /* dataSend_serverTests */,
+				30DF5C041935DFC600F196A3 /* Frameworks */,
+				30DF5C031935DFC600F196A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30DF5C031935DFC600F196A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30DF5C021935DFC600F196A3 /* dataSend_server.app */,
+				30DF5C1D1935DFC800F196A3 /* dataSend_serverTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30DF5C041935DFC600F196A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3019ACF41938359100419DDF /* SystemConfiguration.framework */,
+				3019ACF21938357C00419DDF /* CFNetwork.framework */,
+				3019ACF01938357200419DDF /* Security.framework */,
+				30DF5C051935DFC600F196A3 /* Foundation.framework */,
+				30DF5C071935DFC600F196A3 /* CoreGraphics.framework */,
+				30DF5C091935DFC600F196A3 /* UIKit.framework */,
+				30DF5C1E1935DFC800F196A3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30DF5C0B1935DFC600F196A3 /* dataSend_server */ = {
+			isa = PBXGroup;
+			children = (
+				30DF5C141935DFC700F196A3 /* AppDelegate.h */,
+				30DF5C151935DFC700F196A3 /* AppDelegate.m */,
+				30DF5C341935E38900F196A3 /* dataSendViewController.h */,
+				30DF5C351935E38900F196A3 /* dataSendViewController.m */,
+				30DF5C371935E39B00F196A3 /* checkDataViewController.h */,
+				30DF5C381935E39B00F196A3 /* checkDataViewController.m */,
+				30DF5C3A1935E4CA00F196A3 /* imgs */,
+				30DF5C171935DFC700F196A3 /* Images.xcassets */,
+				30DF5C0C1935DFC600F196A3 /* Supporting Files */,
+			);
+			path = dataSend_server;
+			sourceTree = "<group>";
+		};
+		30DF5C0C1935DFC600F196A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30DF5C0D1935DFC700F196A3 /* dataSend_server-Info.plist */,
+				30DF5C0E1935DFC700F196A3 /* InfoPlist.strings */,
+				30DF5C111935DFC700F196A3 /* main.m */,
+				30DF5C131935DFC700F196A3 /* dataSend_server-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30DF5C241935DFC800F196A3 /* dataSend_serverTests */ = {
+			isa = PBXGroup;
+			children = (
+				30DF5C2A1935DFC800F196A3 /* dataSend_serverTests.m */,
+				30DF5C251935DFC800F196A3 /* Supporting Files */,
+			);
+			path = dataSend_serverTests;
+			sourceTree = "<group>";
+		};
+		30DF5C251935DFC800F196A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30DF5C261935DFC800F196A3 /* dataSend_serverTests-Info.plist */,
+				30DF5C271935DFC800F196A3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30DF5C3A1935E4CA00F196A3 /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				30DF5C3D1935E4DF00F196A3 /* 11.png */,
+				30DF5C3B1935E4D800F196A3 /* 18.png */,
+			);
+			name = imgs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30DF5C011935DFC600F196A3 /* dataSend_server */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30DF5C2E1935DFC800F196A3 /* Build configuration list for PBXNativeTarget "dataSend_server" */;
+			buildPhases = (
+				30DF5BFE1935DFC600F196A3 /* Sources */,
+				30DF5BFF1935DFC600F196A3 /* Frameworks */,
+				30DF5C001935DFC600F196A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dataSend_server;
+			productName = dataSend_server;
+			productReference = 30DF5C021935DFC600F196A3 /* dataSend_server.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30DF5C1C1935DFC800F196A3 /* dataSend_serverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30DF5C311935DFC800F196A3 /* Build configuration list for PBXNativeTarget "dataSend_serverTests" */;
+			buildPhases = (
+				30DF5C191935DFC800F196A3 /* Sources */,
+				30DF5C1A1935DFC800F196A3 /* Frameworks */,
+				30DF5C1B1935DFC800F196A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30DF5C231935DFC800F196A3 /* PBXTargetDependency */,
+			);
+			name = dataSend_serverTests;
+			productName = dataSend_serverTests;
+			productReference = 30DF5C1D1935DFC800F196A3 /* dataSend_serverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30DF5BFA1935DFC600F196A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = kazuhiro;
+				TargetAttributes = {
+					30DF5C1C1935DFC800F196A3 = {
+						TestTargetID = 30DF5C011935DFC600F196A3;
+					};
+				};
+			};
+			buildConfigurationList = 30DF5BFD1935DFC600F196A3 /* Build configuration list for PBXProject "dataSend_server" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 30DF5BF91935DFC600F196A3;
+			productRefGroup = 30DF5C031935DFC600F196A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30DF5C011935DFC600F196A3 /* dataSend_server */,
+				30DF5C1C1935DFC800F196A3 /* dataSend_serverTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30DF5C001935DFC600F196A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30DF5C3C1935E4D800F196A3 /* 18.png in Resources */,
+				30DF5C101935DFC700F196A3 /* InfoPlist.strings in Resources */,
+				30DF5C181935DFC700F196A3 /* Images.xcassets in Resources */,
+				30DF5C3E1935E4DF00F196A3 /* 11.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30DF5C1B1935DFC800F196A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30DF5C291935DFC800F196A3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30DF5BFE1935DFC600F196A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30DF5C361935E38900F196A3 /* dataSendViewController.m in Sources */,
+				30DF5C161935DFC700F196A3 /* AppDelegate.m in Sources */,
+				30DF5C121935DFC700F196A3 /* main.m in Sources */,
+				30DF5C391935E39B00F196A3 /* checkDataViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30DF5C191935DFC800F196A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30DF5C2B1935DFC800F196A3 /* dataSend_serverTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30DF5C231935DFC800F196A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30DF5C011935DFC600F196A3 /* dataSend_server */;
+			targetProxy = 30DF5C221935DFC800F196A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30DF5C0E1935DFC700F196A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30DF5C0F1935DFC700F196A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		30DF5C271935DFC800F196A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30DF5C281935DFC800F196A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30DF5C2C1935DFC800F196A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		30DF5C2D1935DFC800F196A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30DF5C2F1935DFC800F196A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dataSend_server/dataSend_server-Prefix.pch";
+				INFOPLIST_FILE = "dataSend_server/dataSend_server-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		30DF5C301935DFC800F196A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dataSend_server/dataSend_server-Prefix.pch";
+				INFOPLIST_FILE = "dataSend_server/dataSend_server-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		30DF5C321935DFC800F196A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/dataSend_server.app/dataSend_server";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dataSend_server/dataSend_server-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "dataSend_serverTests/dataSend_serverTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		30DF5C331935DFC800F196A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/dataSend_server.app/dataSend_server";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dataSend_server/dataSend_server-Prefix.pch";
+				INFOPLIST_FILE = "dataSend_serverTests/dataSend_serverTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30DF5BFD1935DFC600F196A3 /* Build configuration list for PBXProject "dataSend_server" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30DF5C2C1935DFC800F196A3 /* Debug */,
+				30DF5C2D1935DFC800F196A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30DF5C2E1935DFC800F196A3 /* Build configuration list for PBXNativeTarget "dataSend_server" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30DF5C2F1935DFC800F196A3 /* Debug */,
+				30DF5C301935DFC800F196A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30DF5C311935DFC800F196A3 /* Build configuration list for PBXNativeTarget "dataSend_serverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30DF5C321935DFC800F196A3 /* Debug */,
+				30DF5C331935DFC800F196A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30DF5BFA1935DFC600F196A3 /* Project object */;
+}
