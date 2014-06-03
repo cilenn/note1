@@ -11,10 +11,13 @@
 @interface AppDelegate : UIResponder <UIApplicationDelegate>{
     
     UITabBarController *root;
+    NSMutableArray *appArray;
 }
-
 @property (strong, nonatomic) UIWindow *window;
 @property UITabBarController *root;
+@property (nonatomic) NSMutableArray *appArray;
+
+
 
 
 @end

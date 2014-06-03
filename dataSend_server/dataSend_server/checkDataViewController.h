@@ -9,10 +9,12 @@
 #import <UIKit/UIKit.h>
 
 
+
 @interface checkDataViewController : UIViewController
 <UITextFieldDelegate>
 {
     UITextField *form;
+    @public
     NSMutableArray *array;
 }
 @property (nonatomic, strong)NSMutableArray *array;

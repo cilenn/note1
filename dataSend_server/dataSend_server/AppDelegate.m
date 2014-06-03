@@ -14,6 +14,8 @@
 
 @implementation AppDelegate
 @synthesize root;
+@synthesize appArray;
+
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions

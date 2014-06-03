@@ -7,10 +7,13 @@
 //
 
 #import "checkDataViewController.h"
+#import "AppDelegate.h"
+
 
 @interface checkDataViewController ()
 
 @end
+
 
 @implementation checkDataViewController
 @synthesize challenge;
@@ -73,10 +76,23 @@
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField
 {
+    [self check];
     // the user pressed the "Done" button, so dismiss the keyboard
     // キーボードを非表示にする
     [textField resignFirstResponder];
     return YES;
+}
+
+-(void)check{
+#if DEBUG
+    NSLog(@"check_log:%@", array);
+#endif
+    AppDelegate *myApp = (AppDelegate *)[UIApplication sharedApplication].delegate;
+    myApp.appArray = array.copy;
+#if DEBUG
+    NSLog(@"check_copy_log:%@", myApp.appArray);
+#endif
+
 }
 
 

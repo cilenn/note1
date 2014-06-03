@@ -7,6 +7,8 @@
 //
 
 #import "dataSendViewController.h"
+#import "AppDelegate.h"
+
 
 @interface dataSendViewController ()
 
@@ -220,16 +222,16 @@
 
 
 -(void)writing{
-    checkDataViewController*tab1 = [[checkDataViewController alloc]init];
-    if (tab1.array.count == 0) {
+    //checkDataViewController*tab1 = [[checkDataViewController alloc]init];
+    AppDelegate *myApp = (AppDelegate *)[UIApplication sharedApplication].delegate;
+    if (myApp.appArray == nil) {
         [self alert];
         
     }else{
 #if DEBUG
-    NSLog(@"debug_property:%@", tab1.array);
+        NSLog(@"check_tab1_log:%@", myApp.appArray);
 #endif
-    
-    field.text = tab1.array[1];
+    field.text = myApp.appArray[1];
     }
 }
 
